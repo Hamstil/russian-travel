@@ -1,3 +1,15 @@
 @import url(../vendor/fonts/inter.css);
 @import url(../vendor/normalize.css);
+@import url(../blocks/page/page.css);
+@import url(../blocks/page/__header/page__header.css);
+@import url(../blocks/page/__footer/page__footer.css);
+@import url(../blocks/content/content.css);
+@import url(../blocks/content/__section/content__section.css);
+@import url(../blocks/content/__section/_desktop/content__section_desktop_narrow.css);
+@import url(../blocks/content/__section/_laptop/content__section_laptop_wide.css);
+@import url(../blocks/content/__section/_tablet/content__section_tablet_wide.css);
+@import url(../blocks/content/__section/_mobile/content__section_mobile_wide.css);
 
+/* 1184 общий ограничитель
+   984 ограничитель некоторых секций
+*/
