@@ -13,3 +13,46 @@
 /* 1184 общий ограничитель
    984 ограничитель некоторых секций
 */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media screen and (max-width: 320px) {
+  .header__logo {
+    max-width: 142px;
+  }
+}
+
+.header__lang {
+  display: flex;
+  align-items: center;
+  column-gap: 18px;
+  padding: 18px 0 6px 0;
+  margin: 0;
+}
+
+.header__lang li {
+  list-style: none;
+}
+
+.header__lang-link {
+  font-family: 'Inter', Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: #fff;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 320px) {
+  .header__lang-link {
+    font-size: 18px;
+  }
+}
+
+.header__lang-link_underline {
+  text-decoration: underline;
+}
+
