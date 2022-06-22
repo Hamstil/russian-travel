@@ -14,15 +14,12 @@
 @import url(../blocks/content/__section/_laptop/content__section_laptop_wide.css);
 @import url(../blocks/content/__section/_tablet/content__section_tablet_wide.css);
 @import url(../blocks/content/__section/_mobile/content__section_mobile_wide.css);
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__image/lead__image.css);
+@import url(../blocks/lead/__caption/lead__caption.css);
 
 /* 1184 общий ограничитель
    984 ограничитель некоторых секций
 */
-
-.lead {
-  width: 100%;
-}
-
-.lead__image {
-  width: 100%;
-}
