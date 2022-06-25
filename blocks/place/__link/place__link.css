@@ -1,0 +1,29 @@
+.place__link {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+  align-self: end;
+}
+
+.place__link span {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 12px;
+  letter-spacing: 2px;
+  color: #aaa;
+}
+
+.place__link a {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+  text-decoration-line: underline;
+}
+
+@media screen and (max-width: 420px) {
+  .place__link {
+    padding: 0 16px;
+  }
+}
+
