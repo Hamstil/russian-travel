@@ -1,12 +1,12 @@
 .place__link {
   display: flex;
   flex-direction: column;
-  row-gap: 12px;
   align-self: end;
   align-items: start;
 }
 
 .place__link span {
+  margin-bottom: 12px;
   font-weight: 400;
   font-size: 12px;
   line-height: 12px;

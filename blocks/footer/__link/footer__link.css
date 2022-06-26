@@ -1,5 +1,10 @@
 .footer__link {
   list-style: none;
+  margin-right: 18px;
+}
+
+.footer__link:last-child {
+  margin-right: 0;
 }
 
 .footer__link a {
@@ -17,6 +22,10 @@
 }
 
 @media screen and (max-width: 512px) {
+  .footer__link {
+    margin: 0 0 32px 0;
+  }
+
   .footer__link a {
     font-size: 24px;
     line-height: 24px;

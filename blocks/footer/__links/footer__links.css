@@ -2,16 +2,19 @@
   margin: 0;
   padding: 0;
   display: flex;
-  column-gap: 18px;
-  row-gap: 18px;
   flex-wrap: wrap;
 }
 
+@media screen and (max-width: 726px) {
+  .footer__links {
+    margin-bottom: 48px;
+  }
+}
+
+
 @media screen and (max-width: 512px) {
   .footer__links {
-    margin: 0;
     padding: 0;
     flex-direction: column;
-    row-gap: 32px;
   }
 }
