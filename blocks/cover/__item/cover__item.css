@@ -32,7 +32,7 @@
 
 @media screen and (max-width: 1024px) {
   .cover__item {
-    min-height: 740px;
+    min-height: 640px;
     filter: none;
   }
 }

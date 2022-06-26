@@ -3,6 +3,7 @@
   flex-direction: column;
   row-gap: 12px;
   align-self: end;
+  align-items: start;
 }
 
 .place__link span {
@@ -14,11 +15,18 @@
 }
 
 .place__link a {
+  display: inline;
   font-weight: 400;
   font-size: 18px;
   line-height: 22px;
   color: #fff;
   text-decoration-line: underline;
+  opacity: 1;
+  transition: 0.3s;
+}
+
+.place__link a:hover {
+  opacity: 0.8;
 }
 
 @media screen and (max-width: 420px) {
