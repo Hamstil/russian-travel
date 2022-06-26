@@ -39,3 +39,106 @@
    984 ограничитель некоторых секций
 */
 
+.cover {
+  width: 100%;
+}
+
+.cover__item {
+  background-image: url(../images/cover-trains.jpg);
+  background-size: cover;
+  min-height: 740px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  position: relative;
+  z-index: 1;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.cover__item::before {
+  content: '';
+  background-color: #2A2C2F;
+  opacity: 0.3;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: 0.3s;
+}
+
+.cover__item:hover::before {
+ opacity: 0.8;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__item {
+    min-height: 740px;
+    filter: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__item {
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .cover__item {
+    min-height: 200px;
+  }
+}
+
+
+.cover__title {
+  max-width: 560px;
+  margin: 0 0 32px 0;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  color: #fff;
+  text-align: center;
+}
+
+
+@media screen and (max-width: 600px) {
+  .cover__title {
+    max-width: 560px;
+    font-size: 56px;
+    line-height: 60px;
+  }
+}
+
+
+@media screen and (max-width: 420px) {
+  .cover__title {
+    margin: 0 0 16px 0;
+    max-width: 288px;
+    font-size: 32px;
+    line-height: 35px;
+  }
+}
+
+
+.cover__subtitle {
+  max-width: 360px;
+  margin: 0;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+  text-align: center;
+}
+
+@media screen and (max-width: 420px) {
+  .cover__subtitle {
+    max-width: 288px;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
